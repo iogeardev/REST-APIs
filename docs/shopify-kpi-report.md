@@ -130,11 +130,6 @@ Source:
 
 ---
 
-## Change Log
-- 2026-01-22: Initial KPI documentation
-
----
-
 ## Power BI Integration
 
 KPI data is retrieved using ShopifyQL via the Shopify GraphQL Admin API
@@ -152,3 +147,9 @@ The following Power BI queries are used:
 
 Each query calls a shared ShopifyQL Power Query function to ensure
 consistent authentication and response handling.
+
+---
+
+## Change Log
+- 2026-01-22: Initial KPI documentation
+
