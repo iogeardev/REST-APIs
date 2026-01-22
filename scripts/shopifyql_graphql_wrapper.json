@@ -5,3 +5,5 @@
     "q": "FROM sales SHOW total_sales SINCE -30d"
   }
 }
+
+```
