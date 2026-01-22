@@ -1,0 +1,7 @@
+```json
+{
+  "query": "query($q: String!) { shopifyqlQuery(query: $q) { __typename ... on ShopifyQLQueryResponse { tableData { columns { name } rowData } } ... on ShopifyQLQueryError { message } } }",
+  "variables": {
+    "q": "FROM sales SHOW total_sales SINCE -30d"
+  }
+}
