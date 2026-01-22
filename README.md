@@ -17,16 +17,16 @@ No write operations are performed.
 This repository provides a complete Shopify data extraction
 and reporting framework for Power BI.
 
-It includes both **operational inventory reporting** and
-**business KPI reporting**.
+It includes both **operational inventory reporting** and **business KPI reporting**.
 
 ---
 
 ## Modules
 
 ### Inventory Reporting
-Exports **all Shopify inventory states across all locations**
-and transforms the data into a **Power BI–ready table**.
+- Inventory Reporting
+- KPI Reporting
+- Product & Metadata Download (GET-only)
 
 #### What this solves
 - Shopify Admin inventory views are not analytics-friendly
@@ -70,5 +70,6 @@ Provides **Shopify business KPIs** for analytics and executive reporting.
 ---
 
 ## Documentation
-- Inventory: `/docs/inventory-report.md`
-- KPIs: `/docs/shopify-kpi-report.md`
+- Inventory: /docs/inventory-report.md
+- KPIs: /docs/shopify-kpi-report.md
+- Products: /docs/product-report.md
