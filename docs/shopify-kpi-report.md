@@ -132,3 +132,23 @@ Source:
 
 ## Change Log
 - 2026-01-22: Initial KPI documentation
+
+---
+
+## Power BI Integration
+
+KPI data is retrieved using ShopifyQL via the Shopify GraphQL Admin API
+and ingested directly into Power BI using Power Query (M).
+
+Power BI executes read-only HTTP requests to the ShopifyQL endpoint,
+receives tabular JSON (`tableData`), and transforms it into KPI fact tables.
+
+### Power BI Queries
+The following Power BI queries are used:
+- powerbi_kpi_sales_daily
+- powerbi_kpi_traffic_conversion_daily
+- powerbi_kpi_funnel_daily
+- powerbi_kpi_customers_weekly
+
+Each query calls a shared ShopifyQL Power Query function to ensure
+consistent authentication and response handling.
